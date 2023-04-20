@@ -5,11 +5,11 @@ public class Task10 {
         /*
         Write a program to print out duplicate elements from an Array of Strings
          */
-        String[] elements={"GG","Nice day out","Barca the best","GG","Barca the best","Nice day out"};
-        for (int i = 0; i < elements.length; i++) {
-            for (int j = i+1; j < elements.length ; j++) {
-                if(elements[i].equals(elements[j]));
-                System.out.println(elements[j]);
+        String[] colors={"Orange","Red","Blue","Purple"};
+        for (int i = 0; i < colors.length; i++) {
+            for (int j = i+1; j < colors.length ; j++) {
+                if(colors[i].equals(colors[j]));
+                System.out.println("Duplicate color:"+colors[j]);
             }
         }
     }
