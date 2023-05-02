@@ -16,17 +16,17 @@ public class Students {
         Students studentOne= new Students();
         studentOne.name="Leandro";
         studentOne.id="45235";
-        studentOne.numberOfStudents++;
+        Students.numberOfStudents++;
 
         Students studentTwo= new Students();
         studentTwo.name="Adam";
         studentTwo.id="95646";
-        studentTwo.numberOfStudents++;
+        Students.numberOfStudents++;
 
         Students studentThree= new Students();
         studentThree.name="Asghar";
         studentThree.id="88977";
-        studentThree.numberOfStudents++;
+        Students.numberOfStudents++;
 
         System.out.println("Total number of students in class:"+Students.numberOfStudents);
     }
