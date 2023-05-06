@@ -2,7 +2,9 @@ package ConstructorsHw;
 
 public class StaticConstructor {
 
-
+/*
+task: Write program that have static constructor and observe result.
+ */
 
 /*
 static StaticConstructor(){
