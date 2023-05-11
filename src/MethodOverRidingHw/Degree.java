@@ -8,6 +8,6 @@ public class Degree {
     Call the method by creating an object of each of the three classes.
      */
     public void getPrerequisite(){
-        System.out.println("To get a degree you ned a high school diploma");
+        System.out.println("To get a degree you need a high school diploma");
     }
 }
