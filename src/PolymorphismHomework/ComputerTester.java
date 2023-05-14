@@ -8,6 +8,10 @@ public class ComputerTester {
  new Dell("Grey","Dell","XPS 15",2022,"15 inch")};
 
  for(Computer comp:computers){
+     comp.on();
+     comp.type();
+     comp.click();
+
      if(comp instanceof Apple){
          ((Apple)comp).prepTouchID();
      }else if(comp instanceof Lenovo){
@@ -17,9 +21,8 @@ public class ComputerTester {
      }else if(comp instanceof Dell ){
          ((Dell)comp).display();
      }
-     comp.on();
-     comp.type();
-     comp.click();
+     System.out.println();
         }
     }
 }
+J
