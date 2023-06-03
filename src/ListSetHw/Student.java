@@ -3,7 +3,7 @@ package ListSetHw;
 import java.util.HashSet;
 
 public class Student {
-    /**
+    /*
      * task:
      * Create a Set that will hold Objects of Student Type. In this set we do not care about the insertion order.
      * Each student object should have name and studentID. Display name of each student.
@@ -16,12 +16,16 @@ public class Student {
         this.id=id;
     }
 
-    @Override
-    public String toString() {
+    public String getName(){
         return name;
     }
-}
 
+    public String getId(){
+        return id;
+    }
+
+
+}
 class StudentTester{
     public static void main(String[] args) {
 
@@ -33,10 +37,10 @@ class StudentTester{
         students.add(new Student("Semir","0900"));
         students.add(new Student("Asghar","9434"));
 
-        System.out.println(students);
 
-        for(Student s:students){
-            System.out.print(s+" ");
+        for(Student s: students){
+            System.out.print(s.getName()+" ");
         }
+
     }
 }

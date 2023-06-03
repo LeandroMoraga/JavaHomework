@@ -8,7 +8,7 @@ import java.util.concurrent.Callable;
 
 public class CardTester {
     public static void main(String[] args) {
-        /**
+        /*
          * Create 3 objects of different card and store them into LinkedList.
          *  Using for loop/advanced for loop/ iterator access all methods of the class.
          */

@@ -1,7 +1,7 @@
 package ListSetHw;
 
 public class Card {
-    /**
+    /*
      * task:
      * Create a Card class that will have interest rate field and card type
      *   and a constructor that will initialize the fields.

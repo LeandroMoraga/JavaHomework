@@ -5,7 +5,7 @@ import java.util.Iterator;
 
 public class InsuranceTester {
     public static void main(String[] args) {
-        /**
+        /*
          * Create 3 objects of the subclasses and store them in ArrayList.
          * Using for loop/advanced for loop/ iterator access all methods of the class.
          */

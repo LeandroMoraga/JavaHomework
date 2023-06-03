@@ -1,7 +1,7 @@
 package ListSetHw;
 
 public abstract class Insurance {
-    /**
+    /*
      * task:
      * Create a class Insurance that will have an attribute as insuranceName and unimplemented behaviour as getQuote
      * and cancelInsurance. Create 3 subclasses Car, Pet, Health. Car class has its own attribute as carModel
@@ -20,7 +20,7 @@ Insurance(String insuranceName){
 }
 
 class Car extends Insurance{
-    /**
+    /*
      *  Car class has its own attribute as carModel
      */
    private String carModel;
@@ -42,7 +42,7 @@ class Car extends Insurance{
 }
 
 class Pet extends Insurance{
-    /**
+    /*
      *  Class Pet has petType attribute.
      */
 
